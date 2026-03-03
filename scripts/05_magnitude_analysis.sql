@@ -67,3 +67,4 @@ ON c.customer_key = f.customer_key
 GROUP BY 
 c.country
 ORDER BY total_sold_items DESC
+
