@@ -31,4 +31,5 @@ CASE WHEN current_sales - LAG(current_sales) OVER (PARTITION BY product_name ORD
 	 ELSE 'No Change'
 END py_change
 FROM yearly_product_sales
+
 ORDER BY product_name, order_year
