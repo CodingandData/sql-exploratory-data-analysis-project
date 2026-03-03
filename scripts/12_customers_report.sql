@@ -97,3 +97,4 @@ CASE WHEN lifespan = 0 THEN total_sales
 	 ELSE total_sales / lifespan
 END AS avg_monthly_spend
 FROM customer_aggregation
+
