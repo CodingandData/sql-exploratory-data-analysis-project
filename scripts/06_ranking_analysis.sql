@@ -63,4 +63,5 @@ GROUP BY
 c.customer_key,
 c.first_name,
 c.last_name
+
 ORDER BY total_orders
